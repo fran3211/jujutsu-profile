@@ -1,0 +1,229 @@
+body {
+    font-family: "Lilex", monospace;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.header {
+
+    text-align: center;
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+
+}
+
+.content {
+    display: flex;
+    height: 40%;
+    width: 100%;
+    gap: 10px;
+
+}
+
+
+.sidebar {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    padding: 20px;
+}
+
+.sidebar {
+    border: 1px solid black;
+}
+
+
+.sidebar h3 {
+    flex-wrap: wrap;
+}
+
+
+
+.user-pic {
+    width: 5em;
+    height: 5em;
+    object-fit: contain;
+}
+
+.user-pic img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.grid {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr 1fr;
+    border: 1px solid black;
+
+}
+
+.list {
+
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+
+.background {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    grid-column: span 4;
+    gap: 10px;
+}
+
+.background h2 {
+    text-align: center;
+}
+
+.background ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.skill-list {
+    overflow: auto;
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: span 2;
+    grid-row: span 2;
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+.mentor-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    grid-column: span 2;
+    grid-row: span 2;
+    padding: 20px;
+}
+
+.footer {
+
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    gap: 10px;
+    background-color: red;
+    padding: 20px 0px 20px 0px;
+    border: 1px solid black;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.div-img {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+
+}
+
+.footer-logo ul {
+
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 50px;
+    list-style-type: none;
+    padding: 0;
+
+}
+
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.contact-item span {
+
+    gap: 100px;
+
+}
+
+.jujutsu-high {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
+
+.jujutsu-high img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.jujutsu {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+
+}
+
+.jujutsu img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+.jjk-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 200px;
+}
+
+.bi-instagram {
+    font-size: 2em;
+}
+
+.bi-facebook {
+    font-size: 2em;
+}
+
+.bi-twitter-x {
+    font-size: 2em;
+}
+
+.motto {
+    margin-top: 100px;
+    font-style: italic;
+}
